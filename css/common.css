@@ -1,0 +1,193 @@
+@charset "UTF-8";
+body {
+  font-size: 15px;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  word-break: break-all;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #1ca9e3;
+}
+
+li {
+  list-style: none;
+}
+/*固定表示*/
+.nav_all {
+  width: 100%;
+  position: fixed;
+  background-color: #fff;
+  box-shadow: 0 3px 3px 0 rgb(0 0 0 / 20%);
+}
+/*li要素横並び*/
+.nav_list {
+  display: flex;
+  justify-content: center; align-items: center;
+}
+
+.nav_item {
+  font-size: 18px;
+  padding: 0 24px;
+}
+
+.nav_link {
+  display: inline-block;
+  padding: 20px 0;
+  color: #333;
+}
+
+.nav_link:hover {
+  color: #75A9FF;
+}
+/*sectionタグに【top】にcssに適用*/
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 700px;
+  background-color: #000;
+  
+}
+/*h1タグに【top_title】にcssを適用*/
+.top_title {
+  font-size: 60px;
+  font-weight: bold; color: #888;
+  letter-spacing: 5px;
+  border: double #1ca9e3 10px;
+}
+/*pタグに【top_subtitle】にcssを適用*/
+.top_subtitle {
+  font-size: 20px;
+  font-weight: bold; color: #888;
+  letter-spacing: 5px;
+}
+/*【section】にcssを適用*/
+.section {
+  padding: 120px 0;
+}
+
+.section:nth-of-type(odd) {
+  background-color: #f7f7f7;
+}
+/*divに付与した【inner】にcssを適用*/
+.inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+/*h2,pタグに付与した【font◯】にcssを適用*/
+.font1 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: #555;
+  margin-bottom: 60px;
+}
+
+.font2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.font3 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.font4 {
+  width: 60%;
+  margin: 0 auto;
+}
+/*imgタグに付与した【about_img】にcssを適用*/
+.about_img {
+  display: block;
+  width: 40%;
+  margin: 0 auto 30px;
+  border-radius: 50%;
+  box-shadow: 0 0 50px 0 #d9d9d9;
+}
+/*divタグに付与した【skill_item】にcssを適用*/
+.skill_item {
+  display: flex;
+  margin-bottom: 50px;
+  border: double #888 10px;
+}
+/*divに付与した【skill_img】,imgタグにcssえお適用*/
+.skill_img {
+  margin-right: 20px;
+}
+
+.skill_img img {
+  width: 60px;
+}
+/*divタグに付与した【work_all】にcssを適用*/
+.work_all {
+  display: flex;
+  flex-wrap: wrap;
+  border: double #888 15px;
+  
+}
+/*divタグに付与した【work_item】,imgにcssを適用*/
+.work_item {
+  flex: 32%;
+  margin-right: 2%;
+}
+
+.work_item:nth-of-type(3n) {
+  margin-right: 0;
+}
+
+.work_item a img {
+  width: 100%;
+}
+/*divタグに付与した【work_body】内のpタグにcssを適用*/
+.work_body p {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 6px;
+}
+.work_body:hover {
+  color: #75A9FF;
+}
+/*ulタグに付与した【contact_list】,liタグにcssを適用*/
+.contact_list {
+  display: flex; align-items: center;
+  justify-content: center;
+}
+
+.contact_list li {
+  list-style: none;
+}
+/*imgタグに付与した【contact_img】にcssを適用*/
+.contact_item {
+  width: 60px;
+}
+/*pタグに付与した【contact_mail】にcssを適用*/
+.contact_mail {
+  margin-top: 10px;
+  text-align: center;
+}
+/*ulタグに付与した【contact_list】,liタグにcssを適用*/
+.bottom {
+  background-color: #333;
+}
+
+.bottom .inner {
+  padding: 30px;
+}
+
+.copyright {
+  font-size: 13px;
+  text-align: center;
+  color: #fff;
+}
