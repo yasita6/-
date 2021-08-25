@@ -129,6 +129,11 @@ li {
 .skill_img img {
   width: 60px;
 }
+
+img.example {
+  width: 120px;
+  height: 200px;
+}
 /*divタグに付与した【work_all】にcssを適用*/
 .work_all {
   display: flex;
